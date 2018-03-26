@@ -1,0 +1,14 @@
+# Target labels
+ googletest
+# Source files and their labels
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/googletest
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/googletest.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/googletest-complete.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-install.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-mkdir.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-download.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-update.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-patch.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-configure.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-build.rule
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/googletest-prefix/src/googletest-stamp/googletest-test.rule

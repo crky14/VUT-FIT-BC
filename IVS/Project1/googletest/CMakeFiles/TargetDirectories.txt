@@ -1,0 +1,3 @@
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/edit_cache.dir
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/rebuild_cache.dir
+/home/jakub/FIT-2016-2019/IVS/Project1/googletest/CMakeFiles/googletest.dir

@@ -1,0 +1,31 @@
+Name: Client-server programme for getting users information
+Class: IPK
+Year: 2017/2018
+University: VUTBR FIT
+Login: xcrkon00
+Author: Jakub Crkoň
+
+Server application has run before executing client application.
+
+Server side usage:
+	Usage:
+		Scripts is executed from command line and terminated with SIGINT (Ctrl-C)
+	Example: 
+		./ipk-server -p port
+	Needed cmd arguments:
+	  	-p port: port number
+
+Client side usage:
+
+	Usage:
+		Scripts is executed from command line and prints required information
+		to standard output stream or error message to standart error message.
+	Example:
+		./ipk-client -h host -p port [-n|-f|-l] login
+	Needed cmd arguments:
+  		-h host: IP adresse or  fully-qualified DNS name of server
+  		-p port: port number" <<std::endl;
+	Options: only one can be used at same time, at least one is needed
+  		-n login: User ID info" <<std::endl;
+  		-f login: Users home directory" <<std::endl;
+  		-l login: List of all users. If login was inserted, it will be used as prefix for users select

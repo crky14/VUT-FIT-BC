@@ -1,0 +1,49 @@
+emptyBinaryTreeTest.isEmpty 5 0.00129399
+emptyBinaryTreeTest.InsertPositiveNode 5 0.000771809
+emptyBinaryTreeTest.InsertnegativeNode 5 0.000613403
+emptyBinaryTreeTest.DeleteNode 5 0.000580597
+emptyBinaryTreeTest.FindNode 5 0.000612211
+BinaryTreeTest.isNotEmpty 5 0.000624371
+BinaryTreeTest.InsertNode 5 0.000648832
+BinaryTreeTest.DeleteNode 5 0.000622034
+BinaryTreeTest.FindNode 5 0.0006464
+AxiomsTest.LeafNodesColor 5 0.000649214
+AxiomsTest.AllNodesColor 5 0.00078721
+AxiomsTest.PathToRoot 5 0.000683212
+oneMatrix.defaulConstructor 5 0.000727224
+oneMatrix.constructor 5 0.000639391
+oneMatrix.setOnevalue 5 0.000551367
+oneMatrix.setAllvalues 5 0.000528383
+oneMatrix.get 5 0.000492001
+moreMatrixs.equalMatrix 5 0.000483036
+moreMatrixs.notEqualMatrixThrow 5 0.000502014
+moreMatrixs.notEqualMatrix 5 0.00063982
+moreMatrixs.add_1x1 5 0.0006392
+moreMatrixs.add_1x1_Throw 5 0.000508833
+moreMatrixs.multiply_1x1 5 0.000481987
+moreMatrixs.multiply_1x1_Throw 5 0.000491619
+moreMatrixs.Add 5 0.000517178
+moreMatrixs.multiply 5 0.000501966
+moreMatrixs.multiplyByConst 5 0.000487757
+moreMatrixs.solveThrows 5 0.000488806
+oneMatrix.solve_1x1 1 0
+oneMatrix.solve_2x2 5 0.000549793
+oneMatrix.solve_3x3 5 0.000516224
+oneMatrix.solve 5 0.000530195
+NonEmptyQueue.Insert 5 0.000888395
+NonEmptyQueue.RemoveAllForward 5 0.000479412
+NonEmptyQueue.RemoveAllBackward 5 0.000457811
+NonEmptyQueue.Find 5 0.000523186
+EmptyQueue.Insert 5 0.000594759
+EmptyQueue.Remove 5 0.000535393
+EmptyQueue.Find 5 0.000481367
+NonEmptyQueue.myremove 5 0.000455618
+oneMatrix.solve_2x2_negative 4 0.000787735
+oneMatrix.solve_2x2_float 0 0
+oneMatrix.solve_3x3_float 0 0
+oneMatrix.solve_float 0 0
+---
+oneMatrix.solve_1x1
+oneMatrix.solve_2x2_float
+oneMatrix.solve_3x3_float
+oneMatrix.solve_float

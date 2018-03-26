@@ -1,0 +1,338 @@
+#!/bin/sh
+POSIXLY_CORRECT=yes
+IFS=
+size_flag=false
+type_flag=false
+reg_flag=false
+#test if runned in terminal
+check_term () {
+	max_length=79          #max_length - maximal length of terminal
+	if [ -t 1 ]; then
+		max_length=$(($(tput cols) - 1))
+	fi
+}
+# finding max_lenght for normalization of size histogram
+size_normalization () {
+	check_term
+	max_length=$(($max_length - 12))
+	if [ $size_max -le $max_length ]; then
+		size_flag=false
+	fi
+	size_norm=$max_length 	#size_norm - max length for size normalization
+}
+# finding max_lenght for normalization of type histogram
+type_normalization () {
+	check_term
+	max_length=$(($max_length - 47))
+	if [ $type_max -le $max_length ]; then
+		type_flag=false
+	fi
+	type_norm=$max_length 	#type_norm - max length for type normalization
+}
+# argument parcing
+# @param all paramters of script
+check_arg () {
+	while getopts ":ni:" opt; 
+	do
+		case "$opt" in
+			n )
+				if [ "$size_flag" = true ]; then
+					printf "Every parameter can be used only once\n" >&2                 
+					exit 5	
+				fi
+				size_flag=true		#flag for size normalizaciu
+				type_flag=true		#flag for type normalizaciu
+				;;
+			i )	
+				if [ -d $OPTARG ]; then
+					printf "Missing or invalid regular expression\n" >&2
+					exit 1
+				fi
+				if [ "$reg_flag" = true ]; then
+					printf "Every parameter can be used only once\n" >&2				
+					exit 5
+				fi
+				reg_flag=true
+				reg_exp="${OPTARG}"
+				reg_exp=$(echo $reg_exp | sed 's/^/.*/' | sed 's/\^/\//')					#regex modification 
+				;;
+			: )
+				printf "Missing parameter of -i switch" >&2
+				exit 1
+				;;
+			\? )
+				printf "Wrong argument" >&2
+				exit 2
+				;;
+		esac
+	done
+	shift $((OPTIND - 1))
+
+	if [ -z "$*" ]; then 	#finding direcotry 
+		DIR="."				#DIR=direcotry for search
+			else
+		DIR="$*"
+		if [ ! -d "$DIR" ]; 
+		then
+			echo "Invalid directory $DIR" >&2
+			exit 3
+		fi
+	fi
+}
+# chcecking permission for all files
+# exit script if permission denied
+check_permision () {
+	if [ "$reg_flag" = true ]; then
+		find $DIR -regex "$reg_exp" -prune -o -type f | grep -v -E "$reg_exp" >/dev/null 2>&1
+		if [ $? -ne 0 ]; then
+			printf "Permision or another type of error\n" >&2
+			exit 4
+		fi
+	else 
+		find $DIR -type f >/dev/null 2>&1
+		if [ $? -ne 0 ]; then
+			printf "Permision or another type of error\n" >&2
+			exit 4
+		fi
+	fi
+}
+# finding all files in directory
+# print count of all found files and directories
+search_dir () {
+	check_permision
+	if [ "$reg_flag" = true ]; then
+		files_count=$(find $DIR -regex "$reg_exp" -prune -o -type f | grep -v -E "$reg_exp" | wc -l)
+		directories_count=$(find $DIR -regex "$reg_exp" -prune -o -type d | grep -v -E "$reg_exp" | wc -l)
+	else
+		files_count=$(find $DIR -type f | wc -l)
+		directories_count=$(find $DIR -type d | wc -l)
+	fi
+	printf "Root directory: %s\n" $DIR
+	printf "Directories: %d\n" $directories_count
+	printf "All files: %d\n" $files_count
+}
+# found files for each category in size histogram
+# print size histogram
+size_histogram () {
+	size_max=0
+	if [ "$reg_flag" = true ]; then
+		B=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size -100c | grep -v -E "$reg_exp" | wc -l)
+		if [ $B -gt $size_max ]; then
+			size_max=$B
+		fi
+		KiBa=$(find $DIR -regex "$reg_exp" -prune -o -type f -size +99c -size -1024c | grep -v -E "$reg_exp" | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+			size_max=$KiBa
+		fi
+		KiBb=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +1023c -size -10240c | grep -v -E "$reg_exp" | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+			size_max=$KiBb
+		fi
+		KiBc=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +10239c -size -102400c | grep -v -E "$reg_exp" | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+			size_max=$KiBb
+		fi
+		MiBa=$(find $DIR -regex "$reg_exp" -prune -o -type f -size +102399c -size -1048576c | grep -v -E "$reg_exp" | wc -l)
+		if [ $MiBa -gt $size_max ]; then
+			size_max=$MiBa
+		fi
+		MiBb=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +1048575c -size -10485760c | grep -v -E "$reg_exp" | wc -l)
+		if [ $MiBb -gt $size_max ]; then
+			size_max=$MiBb
+		fi
+		MiBc=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +10485759c -size -104857600c | grep -v -E "$reg_exp" | wc -l)
+		if [ $MiBc -gt $size_max ]; then
+			size_max=$MiBc
+		fi
+		Gib=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +104857599c -size -1073741824c | grep -v -E"$reg_exp" | wc -l)
+		if [ $Gib -gt $size_max ]; then
+			size_max=Gib
+		fi
+		GiB=$(find $DIR  -regex "$reg_exp" -prune -o -type f -size +1G | grep -v -E "$reg_exp" | wc -l)
+		if [ $GiB -gt $size_max ]; then
+			size_max=$GiB
+		fi
+	else
+		B=$(find $DIR -type f -size -100c | wc -l)
+		if [ $B -gt $size_max ]; then
+		size_max=$B
+		fi
+		KiBa=$(find $DIR -type f -size +99c -size -1024c | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+		size_max=$KiBa
+		fi
+		KiBb=$(find $DIR -type f -size +1023c -size -10240c | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+			size_max=$KiBb
+		fi
+		KiBc=$(find $DIR -type f -size +10239c -size -102400c | wc -l)
+		if [ $KiBa -gt $size_max ]; then
+			size_max=$KiBb
+		fi
+		MiBa=$(find $DIR -type f -size +102399c -size -1048576c | wc -l)
+		if [ $MiBa -gt $size_max ]; then
+			size_max=$MiBa
+		fi
+		MiBb=$(find $DIR -type f -size +1048575c -size -10485760c | wc -l)
+		if [ $MiBb -gt $size_max ]; then
+			size_max=$MiBb
+		fi
+		MiBc=$(find $DIR -type f -size +10485759c -size -104857600c | wc -l)
+		if [ $MiBc -gt $size_max ]; then
+			size_max=$MiBc
+		fi
+		Gib=$(find $DIR -type f -size +104857599c -size -1073741824c | wc -l)
+		if [ $Gib -gt $size_max ]; then
+			size_max=$Gib
+		fi
+		GiB=$(find $DIR -type f -size +1G | wc -l)
+		if [ $GiB -gt $size_max ]; then
+			size_max=$GiB
+		fi
+	fi
+	if [ "$size_flag" = true ] ; then
+		size_normalization
+	fi
+	printf "File size histogram:\n"
+			
+	printf "  <100 B%*.s: " 2
+	if [ "$size_flag" = true ]; then
+	if [ $size_max -eq $B ]; then 
+	printf "%*s\n" $size_norm | tr " " "#"
+	else
+	printf "%*s\n" $(( B * size_norm / size_max ))  | tr " " "#"
+	fi 
+	else 
+	printf "%*s\n" $B | tr " " "#"
+	fi
+	
+	printf "  <1 KiB%*.s: " 2
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $KiBa ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( KiBa * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $KiBa | tr " " "#"
+	fi
+
+	printf "  <10 KiB%*.s: " 1
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $KiBb ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( KiBb * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $KiBb | tr " " "#"
+	fi
+
+	printf "  <100 KiB%*.s: " 0
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $KiBc ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( KiBc * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $KiBc | tr " " "#"
+	fi
+
+	printf "  <1 MiB%*.s: " 2
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $MiBa ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( MiBa * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $MiBa | tr " " "#"
+	fi
+
+	printf "  <10 MiB%*.s: " 1
+
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $MiBb ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( MiBb * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $MiBb | tr " " "#"
+	fi
+
+	printf "  <100 MiB%*.s: " 0
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $MiBc ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( MiBc * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $MiBc | tr " " "#"
+	fi
+
+	printf "  <1 GiB%*.s: " 2
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $Gib ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( Gib * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $Gib | tr " " "#"
+	fi
+
+	printf "  >=1 GiB%*.s: " 1
+	if [ "$size_flag" = true ]; then
+		if [ $size_max -eq $GiB ]; then 
+			printf "%*s\n" $size_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( GiB * size_norm / size_max ))  | tr " " "#"
+		fi 
+	else 
+		printf "%*s\n" $GiB | tr " " "#"
+	fi
+
+}
+
+# find types of files 
+# print type histogram 
+type_histogram () {
+	type_norm=1
+	IFS='
+	'
+	printf "File type histogram:\n"
+		if [ $files_count -ne 0 ]; then
+			if [ "$reg_flag" = true ]; then
+				types=$(file -b $(find $DIR -regex "$reg_exp" -prune -o -type f | grep -v -E "$reg_exp") | awk 'length > 40{$0 = substr($0, 1, 40)"..."} {printf "%s\n", $0}' | sort | uniq -c | sort -rg | head -n 10 | awk '{print $0"\n"}' | sed 's/^[ ]*//')
+			else
+				types=$(file -b $(find $DIR -type f) | awk 'length > 40{$0 = substr($0, 1, 40)"..."} {printf "%s\n", $0}' | sort | uniq -c | sort -rg | head -n 10 | awk '{print $0"\n"}' | sed 's/^[ ]*//')
+			fi
+	if [ "$type_flag" = true ]; then
+		type_max=$(echo $types | sed 's/[ ].*//')
+		type_normalization
+	fi
+	for i in $types
+	do
+		count=$(echo  $i | sed 's/[ ].*//' | tr -d '\n')
+		f_type=$(echo  $i | sed 's/^[0-9 ]*//' | tr -d '\n') 
+		printf "  $f_type%*.s: " $((43 - ${#f_type}))
+	if [ "$type_flag" = true ]; then
+		if [ $type_max -eq $count ]; then 
+			printf "%*s\n" $type_norm | tr " " "#"
+		else
+			printf "%*s\n" $(( count * type_norm / type_max ))  | tr " " "#"
+		fi
+	else
+		printf "%*s\n" $count | tr " " "#"
+	fi
+	done
+	fi
+}
+
+check_arg "$@"
+search_dir
+size_histogram
+type_histogram

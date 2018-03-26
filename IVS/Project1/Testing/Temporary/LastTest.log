@@ -1,0 +1,1227 @@
+Start testing: Mar 06 23:35 CET
+----------------------------------------------------------
+1/44 Testing: emptyBinaryTreeTest.isEmpty
+1/44 Test: emptyBinaryTreeTest.isEmpty
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=emptyBinaryTreeTest.isEmpty"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"emptyBinaryTreeTest.isEmpty" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = emptyBinaryTreeTest.isEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from emptyBinaryTreeTest
+[ RUN      ] emptyBinaryTreeTest.isEmpty
+[       OK ] emptyBinaryTreeTest.isEmpty (0 ms)
+[----------] 1 test from emptyBinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"emptyBinaryTreeTest.isEmpty" end time: Mar 06 23:35 CET
+"emptyBinaryTreeTest.isEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/44 Testing: emptyBinaryTreeTest.InsertPositiveNode
+2/44 Test: emptyBinaryTreeTest.InsertPositiveNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=emptyBinaryTreeTest.InsertPositiveNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"emptyBinaryTreeTest.InsertPositiveNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = emptyBinaryTreeTest.InsertPositiveNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from emptyBinaryTreeTest
+[ RUN      ] emptyBinaryTreeTest.InsertPositiveNode
+[       OK ] emptyBinaryTreeTest.InsertPositiveNode (0 ms)
+[----------] 1 test from emptyBinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"emptyBinaryTreeTest.InsertPositiveNode" end time: Mar 06 23:35 CET
+"emptyBinaryTreeTest.InsertPositiveNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/44 Testing: emptyBinaryTreeTest.InsertnegativeNode
+3/44 Test: emptyBinaryTreeTest.InsertnegativeNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=emptyBinaryTreeTest.InsertnegativeNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"emptyBinaryTreeTest.InsertnegativeNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = emptyBinaryTreeTest.InsertnegativeNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from emptyBinaryTreeTest
+[ RUN      ] emptyBinaryTreeTest.InsertnegativeNode
+[       OK ] emptyBinaryTreeTest.InsertnegativeNode (0 ms)
+[----------] 1 test from emptyBinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"emptyBinaryTreeTest.InsertnegativeNode" end time: Mar 06 23:35 CET
+"emptyBinaryTreeTest.InsertnegativeNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/44 Testing: emptyBinaryTreeTest.DeleteNode
+4/44 Test: emptyBinaryTreeTest.DeleteNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=emptyBinaryTreeTest.DeleteNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"emptyBinaryTreeTest.DeleteNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = emptyBinaryTreeTest.DeleteNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from emptyBinaryTreeTest
+[ RUN      ] emptyBinaryTreeTest.DeleteNode
+[       OK ] emptyBinaryTreeTest.DeleteNode (0 ms)
+[----------] 1 test from emptyBinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"emptyBinaryTreeTest.DeleteNode" end time: Mar 06 23:35 CET
+"emptyBinaryTreeTest.DeleteNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/44 Testing: emptyBinaryTreeTest.FindNode
+5/44 Test: emptyBinaryTreeTest.FindNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=emptyBinaryTreeTest.FindNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"emptyBinaryTreeTest.FindNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = emptyBinaryTreeTest.FindNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from emptyBinaryTreeTest
+[ RUN      ] emptyBinaryTreeTest.FindNode
+[       OK ] emptyBinaryTreeTest.FindNode (0 ms)
+[----------] 1 test from emptyBinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"emptyBinaryTreeTest.FindNode" end time: Mar 06 23:35 CET
+"emptyBinaryTreeTest.FindNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/44 Testing: BinaryTreeTest.isNotEmpty
+6/44 Test: BinaryTreeTest.isNotEmpty
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=BinaryTreeTest.isNotEmpty"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"BinaryTreeTest.isNotEmpty" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BinaryTreeTest.isNotEmpty
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BinaryTreeTest
+[ RUN      ] BinaryTreeTest.isNotEmpty
+[       OK ] BinaryTreeTest.isNotEmpty (0 ms)
+[----------] 1 test from BinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinaryTreeTest.isNotEmpty" end time: Mar 06 23:35 CET
+"BinaryTreeTest.isNotEmpty" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/44 Testing: BinaryTreeTest.InsertNode
+7/44 Test: BinaryTreeTest.InsertNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=BinaryTreeTest.InsertNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"BinaryTreeTest.InsertNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BinaryTreeTest.InsertNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BinaryTreeTest
+[ RUN      ] BinaryTreeTest.InsertNode
+[       OK ] BinaryTreeTest.InsertNode (0 ms)
+[----------] 1 test from BinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinaryTreeTest.InsertNode" end time: Mar 06 23:35 CET
+"BinaryTreeTest.InsertNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/44 Testing: BinaryTreeTest.DeleteNode
+8/44 Test: BinaryTreeTest.DeleteNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=BinaryTreeTest.DeleteNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"BinaryTreeTest.DeleteNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BinaryTreeTest.DeleteNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BinaryTreeTest
+[ RUN      ] BinaryTreeTest.DeleteNode
+[       OK ] BinaryTreeTest.DeleteNode (0 ms)
+[----------] 1 test from BinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinaryTreeTest.DeleteNode" end time: Mar 06 23:35 CET
+"BinaryTreeTest.DeleteNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/44 Testing: BinaryTreeTest.FindNode
+9/44 Test: BinaryTreeTest.FindNode
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=BinaryTreeTest.FindNode"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"BinaryTreeTest.FindNode" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = BinaryTreeTest.FindNode
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from BinaryTreeTest
+[ RUN      ] BinaryTreeTest.FindNode
+[       OK ] BinaryTreeTest.FindNode (0 ms)
+[----------] 1 test from BinaryTreeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"BinaryTreeTest.FindNode" end time: Mar 06 23:35 CET
+"BinaryTreeTest.FindNode" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/44 Testing: AxiomsTest.LeafNodesColor
+10/44 Test: AxiomsTest.LeafNodesColor
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=AxiomsTest.LeafNodesColor"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"AxiomsTest.LeafNodesColor" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AxiomsTest.LeafNodesColor
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AxiomsTest
+[ RUN      ] AxiomsTest.LeafNodesColor
+[       OK ] AxiomsTest.LeafNodesColor (0 ms)
+[----------] 1 test from AxiomsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AxiomsTest.LeafNodesColor" end time: Mar 06 23:35 CET
+"AxiomsTest.LeafNodesColor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/44 Testing: AxiomsTest.AllNodesColor
+11/44 Test: AxiomsTest.AllNodesColor
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=AxiomsTest.AllNodesColor"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"AxiomsTest.AllNodesColor" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AxiomsTest.AllNodesColor
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AxiomsTest
+[ RUN      ] AxiomsTest.AllNodesColor
+[       OK ] AxiomsTest.AllNodesColor (0 ms)
+[----------] 1 test from AxiomsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AxiomsTest.AllNodesColor" end time: Mar 06 23:35 CET
+"AxiomsTest.AllNodesColor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/44 Testing: AxiomsTest.PathToRoot
+12/44 Test: AxiomsTest.PathToRoot
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/black_box_test" "--gtest_filter=AxiomsTest.PathToRoot"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"AxiomsTest.PathToRoot" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = AxiomsTest.PathToRoot
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from AxiomsTest
+[ RUN      ] AxiomsTest.PathToRoot
+[       OK ] AxiomsTest.PathToRoot (0 ms)
+[----------] 1 test from AxiomsTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"AxiomsTest.PathToRoot" end time: Mar 06 23:35 CET
+"AxiomsTest.PathToRoot" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/44 Testing: oneMatrix.defaulConstructor
+13/44 Test: oneMatrix.defaulConstructor
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.defaulConstructor"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.defaulConstructor" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.defaulConstructor
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.defaulConstructor
+[       OK ] oneMatrix.defaulConstructor (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.defaulConstructor" end time: Mar 06 23:35 CET
+"oneMatrix.defaulConstructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/44 Testing: oneMatrix.constructor
+14/44 Test: oneMatrix.constructor
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.constructor"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.constructor" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.constructor
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.constructor
+[       OK ] oneMatrix.constructor (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.constructor" end time: Mar 06 23:35 CET
+"oneMatrix.constructor" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/44 Testing: oneMatrix.setOnevalue
+15/44 Test: oneMatrix.setOnevalue
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.setOnevalue"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.setOnevalue" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.setOnevalue
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.setOnevalue
+[       OK ] oneMatrix.setOnevalue (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.setOnevalue" end time: Mar 06 23:35 CET
+"oneMatrix.setOnevalue" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/44 Testing: oneMatrix.setAllvalues
+16/44 Test: oneMatrix.setAllvalues
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.setAllvalues"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.setAllvalues" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.setAllvalues
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.setAllvalues
+[       OK ] oneMatrix.setAllvalues (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.setAllvalues" end time: Mar 06 23:35 CET
+"oneMatrix.setAllvalues" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/44 Testing: oneMatrix.get
+17/44 Test: oneMatrix.get
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.get"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.get" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.get
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.get
+[       OK ] oneMatrix.get (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.get" end time: Mar 06 23:35 CET
+"oneMatrix.get" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/44 Testing: moreMatrixs.equalMatrix
+18/44 Test: moreMatrixs.equalMatrix
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.equalMatrix"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.equalMatrix" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.equalMatrix
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.equalMatrix
+[       OK ] moreMatrixs.equalMatrix (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.equalMatrix" end time: Mar 06 23:35 CET
+"moreMatrixs.equalMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/44 Testing: moreMatrixs.notEqualMatrixThrow
+19/44 Test: moreMatrixs.notEqualMatrixThrow
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.notEqualMatrixThrow"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.notEqualMatrixThrow" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.notEqualMatrixThrow
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.notEqualMatrixThrow
+[       OK ] moreMatrixs.notEqualMatrixThrow (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.notEqualMatrixThrow" end time: Mar 06 23:35 CET
+"moreMatrixs.notEqualMatrixThrow" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/44 Testing: moreMatrixs.notEqualMatrix
+20/44 Test: moreMatrixs.notEqualMatrix
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.notEqualMatrix"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.notEqualMatrix" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.notEqualMatrix
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.notEqualMatrix
+[       OK ] moreMatrixs.notEqualMatrix (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.notEqualMatrix" end time: Mar 06 23:35 CET
+"moreMatrixs.notEqualMatrix" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/44 Testing: moreMatrixs.add_1x1
+21/44 Test: moreMatrixs.add_1x1
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.add_1x1"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.add_1x1" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.add_1x1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.add_1x1
+[       OK ] moreMatrixs.add_1x1 (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.add_1x1" end time: Mar 06 23:35 CET
+"moreMatrixs.add_1x1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+22/44 Testing: moreMatrixs.add_1x1_Throw
+22/44 Test: moreMatrixs.add_1x1_Throw
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.add_1x1_Throw"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.add_1x1_Throw" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.add_1x1_Throw
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.add_1x1_Throw
+[       OK ] moreMatrixs.add_1x1_Throw (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.add_1x1_Throw" end time: Mar 06 23:35 CET
+"moreMatrixs.add_1x1_Throw" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/44 Testing: moreMatrixs.multiply_1x1
+23/44 Test: moreMatrixs.multiply_1x1
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.multiply_1x1"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.multiply_1x1" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.multiply_1x1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.multiply_1x1
+[       OK ] moreMatrixs.multiply_1x1 (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.multiply_1x1" end time: Mar 06 23:35 CET
+"moreMatrixs.multiply_1x1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/44 Testing: moreMatrixs.multiply_1x1_Throw
+24/44 Test: moreMatrixs.multiply_1x1_Throw
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.multiply_1x1_Throw"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.multiply_1x1_Throw" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.multiply_1x1_Throw
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.multiply_1x1_Throw
+[       OK ] moreMatrixs.multiply_1x1_Throw (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.multiply_1x1_Throw" end time: Mar 06 23:35 CET
+"moreMatrixs.multiply_1x1_Throw" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/44 Testing: moreMatrixs.Add
+25/44 Test: moreMatrixs.Add
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.Add"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.Add" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.Add
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.Add
+[       OK ] moreMatrixs.Add (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.Add" end time: Mar 06 23:35 CET
+"moreMatrixs.Add" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/44 Testing: moreMatrixs.multiply
+26/44 Test: moreMatrixs.multiply
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.multiply"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.multiply" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.multiply
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.multiply
+[       OK ] moreMatrixs.multiply (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.multiply" end time: Mar 06 23:35 CET
+"moreMatrixs.multiply" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/44 Testing: moreMatrixs.multiplyByConst
+27/44 Test: moreMatrixs.multiplyByConst
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.multiplyByConst"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.multiplyByConst" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.multiplyByConst
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.multiplyByConst
+[       OK ] moreMatrixs.multiplyByConst (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.multiplyByConst" end time: Mar 06 23:35 CET
+"moreMatrixs.multiplyByConst" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/44 Testing: moreMatrixs.solveThrows
+28/44 Test: moreMatrixs.solveThrows
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=moreMatrixs.solveThrows"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"moreMatrixs.solveThrows" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = moreMatrixs.solveThrows
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from moreMatrixs
+[ RUN      ] moreMatrixs.solveThrows
+[       OK ] moreMatrixs.solveThrows (0 ms)
+[----------] 1 test from moreMatrixs (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"moreMatrixs.solveThrows" end time: Mar 06 23:35 CET
+"moreMatrixs.solveThrows" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/44 Testing: oneMatrix.solve_1x1
+29/44 Test: oneMatrix.solve_1x1
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_1x1"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_1x1" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_1x1
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_1x1
+/home/jakub/FIT-2016-2019/IVS/Project1/assignment/white_box_tests.cpp:274: Failure
+      Expected: solution
+      Which is: { 1 }
+To be equal to: testedMatrix->solveEquation(rightSide)
+      Which is: { 0 }
+[  FAILED  ] oneMatrix.solve_1x1 (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] oneMatrix.solve_1x1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"oneMatrix.solve_1x1" end time: Mar 06 23:35 CET
+"oneMatrix.solve_1x1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/44 Testing: oneMatrix.solve_2x2
+30/44 Test: oneMatrix.solve_2x2
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_2x2"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_2x2" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_2x2
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_2x2
+[       OK ] oneMatrix.solve_2x2 (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.solve_2x2" end time: Mar 06 23:35 CET
+"oneMatrix.solve_2x2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/44 Testing: oneMatrix.solve_2x2_negative
+31/44 Test: oneMatrix.solve_2x2_negative
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_2x2_negative"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_2x2_negative" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_2x2_negative
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_2x2_negative
+[       OK ] oneMatrix.solve_2x2_negative (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.solve_2x2_negative" end time: Mar 06 23:35 CET
+"oneMatrix.solve_2x2_negative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/44 Testing: oneMatrix.solve_2x2_float
+32/44 Test: oneMatrix.solve_2x2_float
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_2x2_float"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_2x2_float" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_2x2_float
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_2x2_float
+/home/jakub/FIT-2016-2019/IVS/Project1/assignment/white_box_tests.cpp:330: Failure
+      Expected: solution
+      Which is: { 7.5, -1 }
+To be equal to: testedMatrix->solveEquation(rightSide)
+      Which is: { 18.5, -25 }
+[  FAILED  ] oneMatrix.solve_2x2_float (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] oneMatrix.solve_2x2_float
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"oneMatrix.solve_2x2_float" end time: Mar 06 23:35 CET
+"oneMatrix.solve_2x2_float" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/44 Testing: oneMatrix.solve_3x3
+33/44 Test: oneMatrix.solve_3x3
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_3x3"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_3x3" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_3x3
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_3x3
+[       OK ] oneMatrix.solve_3x3 (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.solve_3x3" end time: Mar 06 23:35 CET
+"oneMatrix.solve_3x3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/44 Testing: oneMatrix.solve_3x3_float
+34/44 Test: oneMatrix.solve_3x3_float
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_3x3_float"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_3x3_float" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_3x3_float
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_3x3_float
+/home/jakub/FIT-2016-2019/IVS/Project1/assignment/white_box_tests.cpp:366: Failure
+      Expected: solution
+      Which is: { 0.858757, -2.12994, 0.655367 }
+To be equal to: testedMatrix->solveEquation(rightSide)
+      Which is: { 1.13433, -1.14925, -0.253731 }
+[  FAILED  ] oneMatrix.solve_3x3_float (1 ms)
+[----------] 1 test from oneMatrix (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] oneMatrix.solve_3x3_float
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"oneMatrix.solve_3x3_float" end time: Mar 06 23:35 CET
+"oneMatrix.solve_3x3_float" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/44 Testing: oneMatrix.solve
+35/44 Test: oneMatrix.solve
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve
+[       OK ] oneMatrix.solve (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"oneMatrix.solve" end time: Mar 06 23:35 CET
+"oneMatrix.solve" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/44 Testing: oneMatrix.solve_float
+36/44 Test: oneMatrix.solve_float
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/white_box_test" "--gtest_filter=oneMatrix.solve_float"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"oneMatrix.solve_float" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = oneMatrix.solve_float
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from oneMatrix
+[ RUN      ] oneMatrix.solve_float
+/home/jakub/FIT-2016-2019/IVS/Project1/assignment/white_box_tests.cpp:408: Failure
+      Expected: solution
+      Which is: { -4.80101, 3.35768, 0.65995, -2.16373 }
+To be equal to: testedMatrix->solveEquation(rightSide)
+      Which is: { 0.126437, -0.311494, 0.0885057, -0.46092 }
+[  FAILED  ] oneMatrix.solve_float (0 ms)
+[----------] 1 test from oneMatrix (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] oneMatrix.solve_float
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"oneMatrix.solve_float" end time: Mar 06 23:35 CET
+"oneMatrix.solve_float" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/44 Testing: NonEmptyQueue.Insert
+37/44 Test: NonEmptyQueue.Insert
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=NonEmptyQueue.Insert"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"NonEmptyQueue.Insert" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.Insert
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.Insert
+[       OK ] NonEmptyQueue.Insert (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyQueue.Insert" end time: Mar 06 23:35 CET
+"NonEmptyQueue.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/44 Testing: NonEmptyQueue.RemoveAllForward
+38/44 Test: NonEmptyQueue.RemoveAllForward
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=NonEmptyQueue.RemoveAllForward"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"NonEmptyQueue.RemoveAllForward" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.RemoveAllForward
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.RemoveAllForward
+[       OK ] NonEmptyQueue.RemoveAllForward (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyQueue.RemoveAllForward" end time: Mar 06 23:35 CET
+"NonEmptyQueue.RemoveAllForward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/44 Testing: NonEmptyQueue.RemoveAllBackward
+39/44 Test: NonEmptyQueue.RemoveAllBackward
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=NonEmptyQueue.RemoveAllBackward"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"NonEmptyQueue.RemoveAllBackward" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.RemoveAllBackward
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.RemoveAllBackward
+[       OK ] NonEmptyQueue.RemoveAllBackward (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyQueue.RemoveAllBackward" end time: Mar 06 23:35 CET
+"NonEmptyQueue.RemoveAllBackward" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/44 Testing: NonEmptyQueue.Find
+40/44 Test: NonEmptyQueue.Find
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=NonEmptyQueue.Find"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"NonEmptyQueue.Find" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.Find
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.Find
+[       OK ] NonEmptyQueue.Find (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyQueue.Find" end time: Mar 06 23:35 CET
+"NonEmptyQueue.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/44 Testing: EmptyQueue.Insert
+41/44 Test: EmptyQueue.Insert
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=EmptyQueue.Insert"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"EmptyQueue.Insert" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = EmptyQueue.Insert
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Insert
+[       OK ] EmptyQueue.Insert (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Insert" end time: Mar 06 23:35 CET
+"EmptyQueue.Insert" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/44 Testing: EmptyQueue.Remove
+42/44 Test: EmptyQueue.Remove
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=EmptyQueue.Remove"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"EmptyQueue.Remove" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = EmptyQueue.Remove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Remove
+[       OK ] EmptyQueue.Remove (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Remove" end time: Mar 06 23:35 CET
+"EmptyQueue.Remove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/44 Testing: EmptyQueue.Find
+43/44 Test: EmptyQueue.Find
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=EmptyQueue.Find"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"EmptyQueue.Find" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = EmptyQueue.Find
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyQueue
+[ RUN      ] EmptyQueue.Find
+[       OK ] EmptyQueue.Find (0 ms)
+[----------] 1 test from EmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyQueue.Find" end time: Mar 06 23:35 CET
+"EmptyQueue.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/44 Testing: NonEmptyQueue.myremove
+44/44 Test: NonEmptyQueue.myremove
+Command: "/home/jakub/FIT-2016-2019/IVS/Project1/tdd_test" "--gtest_filter=NonEmptyQueue.myremove"
+Directory: /home/jakub/FIT-2016-2019/IVS/Project1
+"NonEmptyQueue.myremove" start time: Mar 06 23:35 CET
+Output:
+----------------------------------------------------------
+Running main() from gtest_main.cc
+Note: Google Test filter = NonEmptyQueue.myremove
+[==========] Running 1 test from 1 test case.
+[----------] Global test environment set-up.
+[----------] 1 test from NonEmptyQueue
+[ RUN      ] NonEmptyQueue.myremove
+[       OK ] NonEmptyQueue.myremove (0 ms)
+[----------] 1 test from NonEmptyQueue (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test case ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"NonEmptyQueue.myremove" end time: Mar 06 23:35 CET
+"NonEmptyQueue.myremove" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 06 23:35 CET
