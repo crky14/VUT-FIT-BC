@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Credits_Controller">
+   <children>
+      <TextField alignment="CENTER_RIGHT" editable="false" focusTraversable="false" layoutX="165.0" layoutY="225.0" prefHeight="26.0" prefWidth="170.0" styleClass="fill" stylesheets="@calculator_style.css" text="New Meta Calculator ">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></TextField>
+      <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="230.0" layoutY="251.0" prefHeight="26.0" prefWidth="40.0" styleClass="fill" stylesheets="@calculator_style.css" text="1.0" />
+      <Button fx:id="closeAbout" focusTraversable="false" layoutX="386.0" layoutY="360.0" mnemonicParsing="false" onAction="#closeAction" prefWidth="100.0" text="Close" />
+      <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="180.0" layoutY="277.0" prefHeight="26.0" prefWidth="140.0" styleClass="fill" stylesheets="@calculator_style.css" text="(c) New Meta 2017" />
+      <TextField editable="false" focusTraversable="false" layoutX="90.0" layoutY="300.0" prefHeight="26.0" prefWidth="340.0" styleClass="fill" stylesheets="@calculator_style.css" text="This program comes with absolutely no warranty." />
+      <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="25.0" layoutY="326.0" prefHeight="26.0" prefWidth="450.0" styleClass="fill" stylesheets="@calculator_style.css" text="See the                                                                           for details." />
+      <Hyperlink id="GNU_link" fx:id="link" focusTraversable="false" layoutX="84.0" layoutY="327.0" onAction="#GNU_link" stylesheets="@calculator_style.css" text="GNU General Public License, version 3 or later" textAlignment="CENTER" underline="true" />
+      <Pane id="about_logo" fx:id="bg_pane" layoutX="150.0" layoutY="25.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@calculator_style.css" />
+      <ToggleButton fx:id="creditsButton" focusTraversable="false" layoutX="14.0" layoutY="360.0" mnemonicParsing="false" onAction="#creditsAction" prefWidth="100.0" text="Credits" />
+      <TextArea fx:id="bg_pane_text" editable="false" focusTraversable="false" layoutX="150.0" prefHeight="251.0" prefWidth="200.0" text="&#10;&#10;Barbora Blašková&#10;Jakub Crkoň&#10;Gabariel Koštialik&#10;&#10;&#10;Barbora Blašková&#10;Gabariel Koštialik&#10;&#10;&#10;Barbora Blašková&#10;Jakub Crkoň&#10;&#10;&#10;" visible="false" wrapText="true">
+         <font>
+            <Font size="12.0" />
+         </font>
+      </TextArea>
+      <TextField fx:id="dsg" editable="false" focusTraversable="false" layoutX="151.0" layoutY="142.0" prefHeight="26.0" prefWidth="115.0" styleClass="hidden" stylesheets="@calculator_style.css" text="Designed by:" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </TextField>
+      <TextField fx:id="crt" alignment="TOP_LEFT" editable="false" focusTraversable="false" layoutX="151.0" layoutY="10.0" prefHeight="26.0" prefWidth="106.0" styleClass="hidden" stylesheets="@calculator_style.css" text="Created by:" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="dcm" editable="false" focusTraversable="false" layoutX="151.0" layoutY="82.0" prefHeight="26.0" prefWidth="140.0" styleClass="hidden" stylesheets="@calculator_style.css" text="Documented by:" visible="false">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Help_controller">
+   <children>
+      <TextField alignment="CENTER" editable="false" focusTraversable="false" prefHeight="40.0" prefWidth="500.0" text="Help">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </TextField>
+      <Button fx:id="closeWindow" cancelButton="true" focusTraversable="false" layoutX="250.0" layoutY="340.0" mnemonicParsing="false" onAction="#closeAction" prefHeight="60.0" prefWidth="250.0" text="Close">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutY="340.0" mnemonicParsing="false" onAction="#creditsAction" prefHeight="60.0" prefWidth="250.0" text="About">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <TextArea editable="false" focusTraversable="false" layoutX="57.0" layoutY="41.0" prefHeight="298.0" prefWidth="443.0" styleClass="hidden" stylesheets="@calculator_style.css" text="- Calculate the value of x factorial.&#10;- Calculate the value of x raised to the power of y, while y must be an integer.&#10;- function will calculate the remainder of division, e.g. 5%2 = 3.&#10;- It will calculate the n-th root of the given number.&#10;- It will remove the whole input from the box.&#10;- It will remove the last number or operation inserted by user." wrapText="true">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </TextArea>
+      <TextArea focusTraversable="false" layoutY="41.0" prefHeight="298.0" prefWidth="68.0" styleClass="hidden" stylesheets="@calculator_style.css" text="x!&#10;x^y &#10;&#10;x%y&#10; &#10;sqrt&#10; &#10;C&#10;DEL ">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

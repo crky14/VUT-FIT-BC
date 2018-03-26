@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@calculator_style.css" xmlns="http://javafx.com/javafx/8.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI_Controller">
+   <children>
+      <Button layoutY="80.0" mnemonicParsing="false" onAction="#sevenAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="7">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="100.0" layoutY="80.0" mnemonicParsing="false" onAction="#eigthAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="8">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="200.0" layoutY="80.0" mnemonicParsing="false" onAction="#nineAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="9">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="300.0" layoutY="80.0" mnemonicParsing="false" onAction="#powAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="^">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="500.0" layoutY="240.0" mnemonicParsing="false" onAction="#DELAction" prefHeight="80.0" prefWidth="100.0" styleClass="del" stylesheets="@calculator_style.css" text="DEL">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="500.0" layoutY="160.0" mnemonicParsing="false" onAction="#CAction" prefHeight="80.0" prefWidth="100.0" styleClass="del" stylesheets="@calculator_style.css" text="C">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="500.0" layoutY="320.0" mnemonicParsing="false" onAction="#equalAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="=">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutY="320.0" mnemonicParsing="false" onAction="#zeroAction" prefHeight="80.0" prefWidth="200.0" styleClass="num" stylesheets="@calculator_style.css" text="0">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutY="160.0" mnemonicParsing="false" onAction="#fourAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="4">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutY="240.0" mnemonicParsing="false" onAction="#oneAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="1">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="100.0" layoutY="160.0" mnemonicParsing="false" onAction="#fiveAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="5">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="100.0" layoutY="240.0" mnemonicParsing="false" onAction="#twoAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="2">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="200.0" layoutY="160.0" mnemonicParsing="false" onAction="#sixAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="6">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="200.0" layoutY="240.0" mnemonicParsing="false" onAction="#threeAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text="3">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="200.0" layoutY="320.0" mnemonicParsing="false" onAction="#dotAction" prefHeight="80.0" prefWidth="100.0" styleClass="num" stylesheets="@calculator_style.css" text=",">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Button layoutX="300.0" layoutY="160.0" mnemonicParsing="false" onAction="#plusAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="+">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="300.0" layoutY="240.0" mnemonicParsing="false" onAction="#minusAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="-">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="300.0" layoutY="320.0" mnemonicParsing="false" onAction="#moduloAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="\%">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="400.0" layoutY="80.0" mnemonicParsing="false" onAction="#sqrtAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="√">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="400.0" layoutY="160.0" mnemonicParsing="false" onAction="#multiAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="*">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="400.0" layoutY="240.0" mnemonicParsing="false" onAction="#divAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="/">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <Button layoutX="400.0" layoutY="320.0" mnemonicParsing="false" onAction="#factAction" prefHeight="80.0" prefWidth="100.0" styleClass="control" stylesheets="@calculator_style.css" text="!">
+         <font>
+            <Font size="17.0" />
+         </font></Button>
+      <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" focusTraversable="false" layoutX="50.0" prefHeight="80.0" prefWidth="600.0" styleClass=".output" stylesheets="@calculator_style.css" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <padding>
+            <Insets right="10.0" />
+         </padding></TextField>
+      <TextField fx:id="OP_display" editable="false" focusTraversable="false" layoutY="1.0" prefHeight="78.0" prefWidth="60.0" styleClass="hidden" stylesheets="@calculator_style.css">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Button id="help" layoutX="500.0" layoutY="80.0" mnemonicParsing="false" onAction="#helpAction" prefHeight="80.0" prefWidth="100.0" styleClass="del" stylesheets="@calculator_style.css" text="?" textFill="#757373">
+         <font>
+            <Font name="System Bold" size="35.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
