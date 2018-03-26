@@ -1,1 +1,1 @@
-Script printing hostogram of files size in given directory
+Script printing histogram of file sizes in given directory
