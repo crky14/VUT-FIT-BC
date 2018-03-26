@@ -1,2 +1,2 @@
-Porblem of child-care center problem
+Problem of child-care center
 Solved using processes and semaphores
